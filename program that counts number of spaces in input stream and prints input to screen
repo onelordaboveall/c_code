@@ -1,0 +1,16 @@
+#include <stdio.h>					
+
+int main (){
+int d=0;						  
+int e;							 
+while ((e=getchar())!=EOF)	{	
+putchar(e);
+if(e==' '){ 
+d++;
+
+}
+if(e=='\n')
+break;
+}
+printf("%d",d);
+}
